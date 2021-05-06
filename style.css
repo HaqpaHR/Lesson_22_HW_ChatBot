@@ -1,0 +1,41 @@
+.wrapper{
+    min-height: 400px;
+    min-width: 200px;
+    max-height: 500px;
+    border: 1px solid gray;
+    overflow: auto;
+}
+.message-form{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    margin: 20px 5%;
+}
+.message-text{
+    width: 55%;
+}
+label{
+    font-size: 20px;
+    margin: 2% 2px
+}
+.message-send{
+    width: 10%;
+}
+
+.user-message {
+    text-align: right;
+    border: 1px ;
+    border-radius: 5px;
+    background: rgb(49, 49, 250);
+    padding: 10px 5px 10px 5px;
+}
+
+.bot-message {
+    border: 1px;
+    border-radius: 5px;
+    background: lightblue;
+    margin-left: 5px;
+    text-align: left;
+    padding: 10px 5px 10px 5px;
+}
